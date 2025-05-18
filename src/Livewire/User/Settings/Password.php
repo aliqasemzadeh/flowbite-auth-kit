@@ -1,13 +1,13 @@
 <?php
 
-namespace YourName\FlowbiteAuthKit\Livewire\User\Settings;
+namespace AliQasemzadeh\FlowbiteAuthKit\Livewire\User\Settings;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Illuminate\Validation\ValidationException;
 use Livewire\Attributes\Layout;
-use YourName\FlowbiteAuthKit\Livewire\Component;
+use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
 
 class Password extends Component
 {

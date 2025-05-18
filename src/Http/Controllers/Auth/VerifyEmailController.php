@@ -1,6 +1,6 @@
 <?php
 
-namespace YourName\FlowbiteAuthKit\Http\Controllers\Auth;
+namespace AliQasemzadeh\FlowbiteAuthKit\Http\Controllers\Auth;
 
 use Illuminate\Auth\Events\Verified;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;

@@ -24,7 +24,7 @@ A Laravel package that provides authentication, profile management, and dashboar
 ### 1. Install the package via Composer
 
 ```bash
-composer require yourname/flowbite-auth-kit
+composer require aliqasemzadeh/flowbite-auth-kit
 ```
 
 ### 2. Publish the assets
