@@ -1,0 +1,32 @@
+{
+    "name": "aliqasemzadeh/flowbite-auth-kit",
+    "description": "Laravel package with Flowbite, WireUI, authentication, profile management, and Livewire components",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Qasemzadeh",
+            "email": "ali.qasemzadeh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12.0",
+        "livewire/livewire": "^3.6",
+        "wireui/wireui": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliQasemzadeh\\FlowbiteAuthKit\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AliQasemzadeh\\FlowbiteAuthKit\\FlowbiteAuthKitServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
