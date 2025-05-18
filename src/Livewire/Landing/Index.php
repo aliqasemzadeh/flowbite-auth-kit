@@ -13,4 +13,14 @@ class Index extends Component
     {
         // You can add initialization logic here
     }
+
+    /**
+     * Render the component.
+     */
+
+    #[Layout('flowbite-auth-kit::components.layouts.app')]
+    public function render()
+    {
+        return view('flowbite-auth-kit::livewire.landing.index');
+    }
 }
