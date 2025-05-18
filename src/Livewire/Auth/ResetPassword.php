@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rules;
 use Livewire\Attributes\Url;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class ResetPassword extends Component
 {
@@ -77,6 +77,6 @@ class ResetPassword extends Component
     #[Layout('flowbite-auth-kit::components.layouts.auth')]
     public function render()
     {
-        return parent::render();
+        return view('flowbite-auth-kit::livewire.auth.reset-password');
     }
 }

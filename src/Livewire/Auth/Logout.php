@@ -3,7 +3,7 @@
 namespace AliQasemzadeh\FlowbiteAuthKit\Livewire\Auth;
 
 use Illuminate\Support\Facades\Auth;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class Logout extends Component
 {

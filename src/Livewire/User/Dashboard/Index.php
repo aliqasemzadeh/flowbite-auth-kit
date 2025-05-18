@@ -4,7 +4,7 @@ namespace AliQasemzadeh\FlowbiteAuthKit\Livewire\User\Dashboard;
 
 use Illuminate\Support\Facades\Auth;
 use Livewire\Attributes\Layout;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class Index extends Component
 {

@@ -7,7 +7,7 @@ use Illuminate\Validation\Rule;
 use Illuminate\Validation\ValidationException;
 use Livewire\Attributes\Layout;
 use AliQasemzadeh\FlowbiteAuthKit\Livewire\Auth\Logout;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class Profile extends Component
 {
@@ -105,6 +105,6 @@ class Profile extends Component
     #[Layout('flowbite-auth-kit::components.layouts.panel')]
     public function render()
     {
-        return parent::render();
+        return view('flowbite-auth-kit::livewire.user.settings.profile');
     }
 }

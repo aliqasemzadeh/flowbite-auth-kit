@@ -3,7 +3,7 @@
 namespace AliQasemzadeh\FlowbiteAuthKit\Livewire\Auth;
 
 use Illuminate\Support\Facades\Auth;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class VerifyEmail extends Component
 {
@@ -34,6 +34,6 @@ class VerifyEmail extends Component
     #[Layout('flowbite-auth-kit::components.layouts.auth')]
     public function render()
     {
-        return parent::render();
+        return view('flowbite-auth-kit::livewire.auth.verify-email');
     }
 }

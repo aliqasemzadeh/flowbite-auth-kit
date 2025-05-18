@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Illuminate\Validation\ValidationException;
 use Livewire\Attributes\Layout;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class Password extends Component
 {
@@ -44,6 +44,6 @@ class Password extends Component
     #[Layout('flowbite-auth-kit::components.layouts.panel')]
     public function render()
     {
-        return parent::render();
+        return view('flowbite-auth-kit::livewire.user.settings.password');
     }
 }

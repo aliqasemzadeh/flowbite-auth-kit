@@ -3,7 +3,7 @@
 namespace AliQasemzadeh\FlowbiteAuthKit\Livewire\Auth;
 
 use Illuminate\Support\Facades\Password;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class ForgetPassword extends Component
 {
@@ -48,6 +48,6 @@ class ForgetPassword extends Component
     #[Layout('flowbite-auth-kit::components.layouts.auth')]
     public function render()
     {
-        return parent::render();
+        return view('flowbite-auth-kit::livewire.auth.forget-password');
     }
 }

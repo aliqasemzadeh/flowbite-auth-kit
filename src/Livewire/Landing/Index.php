@@ -2,7 +2,7 @@
 
 namespace AliQasemzadeh\FlowbiteAuthKit\Livewire\Landing;
 
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class Index extends Component
 {

@@ -5,7 +5,7 @@ namespace AliQasemzadeh\FlowbiteAuthKit\Livewire\Auth;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class ConfirmPassword extends Component
 {
@@ -48,6 +48,6 @@ class ConfirmPassword extends Component
     #[Layout('flowbite-auth-kit::components.layouts.auth')]
     public function render()
     {
-        return parent::render();
+        return view('flowbite-auth-kit::livewire.auth.confirm-password');
     }
 }

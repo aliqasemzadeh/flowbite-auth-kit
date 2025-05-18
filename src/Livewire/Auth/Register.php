@@ -7,7 +7,7 @@ use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class Register extends Component
 {
@@ -57,6 +57,6 @@ class Register extends Component
     #[Layout('flowbite-auth-kit::components.layouts.auth')]
     public function render()
     {
-        return parent::render();
+        return view('flowbite-auth-kit::livewire.auth.register');
     }
 }

@@ -3,7 +3,7 @@
 namespace AliQasemzadeh\FlowbiteAuthKit\Livewire\Auth;
 
 use Illuminate\Support\Facades\Auth;
-use AliQasemzadeh\FlowbiteAuthKit\Livewire\Component;
+use Livewire\Component;
 
 class Login extends Component
 {
@@ -45,6 +45,6 @@ class Login extends Component
     #[Layout('flowbite-auth-kit::components.layouts.auth')]
     public function render()
     {
-        return parent::render();
+        return view('flowbite-auth-kit::livewire.auth.login');
     }
 }
